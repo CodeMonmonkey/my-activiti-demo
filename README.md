@@ -2,7 +2,7 @@
 
 [TOC]
 
-## 连接数据库
+## 创建activiti所需的数据库表
 
 本地安装了MySQL 8.0.20版本，需要执行以下操作：
 * 更新maven依赖到8.0.18版本
@@ -24,3 +24,5 @@
     <property name="maxIdle" value="1" />
 </bean>
 ```
+
+执行`testGenTable()`
