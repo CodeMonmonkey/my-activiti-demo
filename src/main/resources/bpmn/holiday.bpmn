@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:tns="http://www.activiti.org/test" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" expressionLanguage="http://www.w3.org/1999/XPath" id="m1594476606250" name="" targetNamespace="http://www.activiti.org/test" typeLanguage="http://www.w3.org/2001/XMLSchema">
-  <process id="myProcess_1" isClosed="false" isExecutable="true" processType="None">
+  <process id="holiday" isClosed="false" isExecutable="true" processType="None">
     <startEvent id="_2" name="StartEvent"/>
-    <userTask activiti:assignee="zhangsan" activiti:exclusive="true" id="_3" name="濉啓璇峰亣鐢宠鍗�?"/>
-    <sequenceFlow id="_4" sourceRef="_2" targetRef="_3"/>
-    <userTask activiti:assignee="lisi" activiti:exclusive="true" id="_5" name="閮ㄩ棬缁忕悊瀹℃�?"/>
-    <sequenceFlow id="_7" sourceRef="_3" targetRef="_5"/>
-    <userTask activiti:assignee="wangwu" activiti:exclusive="true" id="_6" name="鎬荤粡鐞嗗鎵�"/>
+    <userTask activiti:assignee="zhangsan" activiti:exclusive="true" id="node01" name="Node01"/>
+    <sequenceFlow id="_4" sourceRef="_2" targetRef="node01"/>
+    <userTask activiti:assignee="lisi" activiti:exclusive="true" id="node02" name="Node02"/>
+    <sequenceFlow id="_7" sourceRef="node01" targetRef="node02"/>
+    <userTask activiti:assignee="wangwu" activiti:exclusive="true" id="node03" name="Node03"/>
     <endEvent id="_8" name="EndEvent"/>
-    <sequenceFlow id="_9" sourceRef="_5" targetRef="_6"/>
-    <sequenceFlow id="_10" sourceRef="_6" targetRef="_8"/>
+    <sequenceFlow id="_9" sourceRef="node02" targetRef="node03"/>
+    <sequenceFlow id="_10" sourceRef="node03" targetRef="_8"/>
   </process>
   <bpmndi:BPMNDiagram documentation="background=#3C3F41;count=1;horizontalcount=1;orientation=0;width=842.4;height=1195.2;imageableWidth=832.4;imageableHeight=1185.2;imageableX=5.0;imageableY=5.0" id="Diagram-_1" name="New Diagram">
-    <bpmndi:BPMNPlane bpmnElement="myProcess_1">
+    <bpmndi:BPMNPlane bpmnElement="holiday">
       <bpmndi:BPMNShape bpmnElement="_2" id="Shape-_2">
         <omgdc:Bounds height="32.0" width="32.0" x="305.0" y="35.0"/>
         <bpmndi:BPMNLabel>
           <omgdc:Bounds height="32.0" width="32.0" x="0.0" y="0.0"/>
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape bpmnElement="_3" id="Shape-_3">
+      <bpmndi:BPMNShape bpmnElement="node01" id="Shape-node01">
         <omgdc:Bounds height="55.0" width="85.0" x="290.0" y="145.0"/>
         <bpmndi:BPMNLabel>
           <omgdc:Bounds height="55.0" width="85.0" x="0.0" y="0.0"/>
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape bpmnElement="_5" id="Shape-_5">
+      <bpmndi:BPMNShape bpmnElement="node02" id="Shape-node02">
         <omgdc:Bounds height="55.0" width="85.0" x="275.0" y="220.0"/>
         <bpmndi:BPMNLabel>
           <omgdc:Bounds height="55.0" width="85.0" x="0.0" y="0.0"/>
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape bpmnElement="_6" id="Shape-_6">
+      <bpmndi:BPMNShape bpmnElement="node03" id="Shape-node03">
         <omgdc:Bounds height="55.0" width="85.0" x="305.0" y="315.0"/>
         <bpmndi:BPMNLabel>
           <omgdc:Bounds height="55.0" width="85.0" x="0.0" y="0.0"/>

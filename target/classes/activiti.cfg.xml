@@ -19,7 +19,9 @@
 
     <!--  processEngine配置，使用单独启动方式  -->
     <bean id="processEngineConfiguration" class="org.activiti.engine.impl.cfg.StandaloneProcessEngineConfiguration">
+        <!--数据源-->
         <property name="dataSource" ref="dataSource"></property>
+        <!--是否生成表结构-->
         <property name="databaseSchemaUpdate" value="true"/>
     </bean>
 
