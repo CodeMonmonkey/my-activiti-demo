@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="626e0e09-61cd-4618-adec-61330c25c3d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/holiday.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/activiti.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/activiti.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/axis.log" beforeDir="false" afterPath="$PROJECT_DIR$/axis.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/bpmn/holiday.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/bpmn/holiday.bpmn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/test/ActivitiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/ActivitiTest.java" afterDir="false" />
     </list>
@@ -20,30 +23,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="62" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/activiti.cfg.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="22" column="64" lean-forward="true" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="309">
-                <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+              <first_editor relative-caret-position="286">
+                <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
               </first_editor>
               <second_editor />
             </state>
@@ -51,30 +36,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/axis.log">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/test/ActivitiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+            <state relative-caret-position="214">
+              <caret line="111" column="101" selection-start-line="111" selection-start-column="101" selection-end-line="111" selection-end-column="101" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/bpmn/holiday.bpmn">
-          <provider selected="true" editor-type-id="bpmn-editor" />
         </entry>
       </file>
     </leaf>
@@ -94,10 +64,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/resources/activiti.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/test/ActivitiTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/bpmn/holiday.bpmn" />
+        <option value="$PROJECT_DIR$/src/test/java/com/test/ActivitiTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -123,7 +93,7 @@
     <option name="x" value="240" />
     <option name="y" value="129" />
     <option name="width" value="1440" />
-    <option name="height" value="777" />
+    <option name="height" value="776" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -133,6 +103,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="CatdeaLogs" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,6 +143,14 @@
               <item name="my-activiti-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-activiti-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-activiti-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-activiti-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -191,8 +172,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -205,7 +184,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -224,7 +203,71 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ActivitiTest.completeTask">
+    <configuration name="ActivitiTest.completeTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-activiti-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.ActivitiTest" />
+      <option name="METHOD_NAME" value="completeTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActivitiTest.deployProcess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-activiti-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.ActivitiTest" />
+      <option name="METHOD_NAME" value="deployProcess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActivitiTest.findPersonalTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-activiti-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.ActivitiTest" />
+      <option name="METHOD_NAME" value="findPersonalTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActivitiTest.startProcessInstance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="my-activiti-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.ActivitiTest" />
+      <option name="METHOD_NAME" value="startProcessInstance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ActivitiTest.testGenTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="my-activiti-demo" />
       <extension name="coverage">
@@ -243,6 +286,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ActivitiTest.completeTask" />
+        <item itemvalue="JUnit.ActivitiTest.findPersonalTask" />
+        <item itemvalue="JUnit.ActivitiTest.startProcessInstance" />
+        <item itemvalue="JUnit.ActivitiTest.deployProcess" />
         <item itemvalue="JUnit.ActivitiTest.testGenTable" />
       </list>
     </recent_temporary>
@@ -264,26 +311,18 @@
       <workItem from="1594478686821" duration="901000" />
       <workItem from="1594479647276" duration="1119000" />
       <workItem from="1594480853960" duration="3041000" />
-      <workItem from="1594524263453" duration="5019000" />
+      <workItem from="1594524263453" duration="5844000" />
+      <workItem from="1594687246181" duration="16000" />
+      <workItem from="1594727522043" duration="195000" />
+      <workItem from="1594727825358" duration="483000" />
+      <workItem from="1594774100424" duration="614000" />
+      <workItem from="1594866271396" duration="444000" />
+      <workItem from="1595417595442" duration="627000" />
+      <workItem from="1595424127790" duration="4027000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ActivitiTest_testGenTable - 2020.07.12 at 10h 05m 07s.xml">
-      <configuration name="ActivitiTest.testGenTable" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ActivitiTest_testGenTable - 2020.07.12 at 10h 09m 02s.xml">
-      <configuration name="ActivitiTest.testGenTable" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ActivitiTest_testGenTable - 2020.07.12 at 10h 10m 32s.xml">
-      <configuration name="ActivitiTest.testGenTable" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ActivitiTest_testGenTable - 2020.07.12 at 10h 18m 58s.xml">
-      <configuration name="ActivitiTest.testGenTable" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ActivitiTest_testGenTable - 2020.07.12 at 10h 21m 11s.xml">
-      <configuration name="ActivitiTest.testGenTable" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ActivitiTest_testGenTable - 2020.07.12 at 11h 26m 30s.xml">
       <configuration name="ActivitiTest.testGenTable" configurationId="JUnit" />
     </history-entry>
@@ -299,25 +338,40 @@
     <history-entry file="ActivitiTest_testGenTable - 2020.07.12 at 11h 34m 04s.xml">
       <configuration name="ActivitiTest.testGenTable" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ActivitiTest_deployProcess - 2020.07.22 at 21h 53m 03s.xml">
+      <configuration name="ActivitiTest.deployProcess" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActivitiTest_startProcessInstance - 2020.07.22 at 22h 08m 23s.xml">
+      <configuration name="ActivitiTest.startProcessInstance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActivitiTest_startProcessInstance - 2020.07.22 at 22h 09m 14s.xml">
+      <configuration name="ActivitiTest.startProcessInstance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActivitiTest_findPersonalTask - 2020.07.22 at 22h 17m 34s.xml">
+      <configuration name="ActivitiTest.findPersonalTask" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ActivitiTest_completeTask - 2020.07.22 at 22h 24m 51s.xml">
+      <configuration name="ActivitiTest.completeTask" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14424000" />
+    <option name="totallyTimeSpent" value="21655000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2392886" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24333064" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info active="true" id="BPMN Editor" order="7" visible="true" weight="0.2603072" />
+      <window_info id="BPMN Editor" order="7" weight="0.2586904" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.16240875" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -325,7 +379,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32846716" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2080292" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2591241" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32846716" />
@@ -338,55 +392,83 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="BPMNPalette" order="9" visible="true" weight="0.1738076" />
+      <window_info anchor="right" id="BPMNPalette" order="9" weight="0.14389652" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/activiti.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="62" selection-end-column="21" />
+        <state relative-caret-position="330">
+          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/axis.log">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="309">
-            <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/activiti.cfg.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bpmn/holiday.bpmn">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
+      <provider editor-type-id="bpmn-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/img/holiday.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="uml://BPMN_2_0/flowPath=D:/Code/Activiti/my-activiti-demo/src/main/resources/bpmn/holiday.xml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>BPMN_2_0</ID>
+          <OriginalElement>flowPath=D:/Code/Activiti/my-activiti-demo/src/main/resources/bpmn/holiday.xml</OriginalElement>
+          <nodes>
+            <node x="" y="">&lt;invalid&gt;</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="58.0" y="173.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Details</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="22" column="64" lean-forward="true" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+        <state relative-caret-position="378">
+          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="62" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/test/ActivitiTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        <state relative-caret-position="214">
+          <caret line="111" column="101" selection-start-line="111" selection-start-column="101" selection-end-line="111" selection-end-column="101" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bpmn/holiday.bpmn">
-      <provider selected="true" editor-type-id="bpmn-editor" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="286">
+            <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
